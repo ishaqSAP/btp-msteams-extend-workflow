@@ -10,9 +10,9 @@ applications:
       - wftaskdec-dest-service
   env:
     SCENARIO: ((SCENARIO))
-    BTP_LANDSCAPE: ((BTP_LANDSCAPE))
-    BTP_ACCOUNT_NAME: ((BTP_ACCOUNT_NAME))
-    XSUAA_CS_URL_SUFFIX: ((XSUAA_CS_URL_SUFFIX))
+    BTP_LANDSCAPE: ((https://api.cf.eu20-001.hana.ondemand.com/))
+    BTP_ACCOUNT_NAME: ((cpit-dev))
+    XSUAA_CS_URL_SUFFIX: ((azure-live-eu20))
     BTP_SCOPES: ((BTP_SCOPES))
     CONNECTION_NAME_BTP: ((CONNECTION_NAME_BTP))
     CONNECTION_NAME_GRAPH: ((CONNECTION_NAME_GRAPH))
